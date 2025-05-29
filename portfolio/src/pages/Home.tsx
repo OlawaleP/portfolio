@@ -47,6 +47,10 @@ const Home: React.FC = () => {
             <span>React</span>
           </div>
           <div className="skill-icon-item">
+            <i className="fab fa-react"></i>
+            <span>Next.js</span>
+          </div>
+          <div className="skill-icon-item">
             <i className="fab fa-js"></i>
             <span>JavaScript</span>
           </div>
@@ -66,6 +70,10 @@ const Home: React.FC = () => {
             <i className="fab fa-node-js"></i>
             <span>Node.js</span>
           </div>
+          <div className="skill-icon-item">
+            <i className="fab fa-node-js"></i>
+            <span>Java</span>
+          </div>
         </div>
       </div>
 
@@ -74,9 +82,16 @@ const Home: React.FC = () => {
         <div className="project-preview">
           {/* Just a placeholder for a featured project */}
           <div className="project-preview-card">
-            <div className="project-preview-img"></div>
-            <h4>Project Name</h4>
-            <p>Brief project description showing your skills and achievements.</p>
+            <div
+              className="project-preview-img"
+              style={{
+                backgroundImage: 'url(https://res.cloudinary.com/dgny9bffu/image/upload/v1748526191/jrxrqp8xc6yfbhfyypiy.png)',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center'
+              }}
+            ></div>
+            <h4>GLACR - AI-Powered Career Application Platform</h4>
+            <p>Built a comprehensive AI-driven job application platform that automates resume, cover letter, and application generation. Developed responsive, accessible component libraries using React and TypeScript, implementing advanced state management patterns for complex user workflows and form validations.</p>
             <Link to="/projects" className="btn btn-small">
               See All Projects
             </Link>

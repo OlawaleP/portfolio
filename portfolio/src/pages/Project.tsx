@@ -19,33 +19,37 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-featured e-commerce platform with product listings, shopping cart, and checkout functionality.',
-      image: '/images/project-1.jpg', 
+      title: 'Market-Place Platform',
+      description: 'A full-featured market-place platform with products, shopping cart, sellers-buyers interaction, and checkout functionality.',
+      image: 'https://res.cloudinary.com/dgny9bffu/image/upload/v1748527475/mod5naavg8oa5smm2i2s.png', 
       technologies: [
         { name: 'React', color: '#61dafb' },
-        { name: 'TypeScript', color: '#007acc' },
+        { name: 'JavaScript', color: '#007acc' },
         { name: 'Redux', color: '#764abc' },
-        { name: 'CSS Modules', color: '#1572b6' }
+        { name: 'Tailwind', color: '#1572b6' },
+        { name: 'Node.js', color: '#68a063' },
+        { name: 'MySQL', color: '#4db33d' },
+        { name: 'Express', color: '#000000' }
       ],
-      demoLink: 'https://demo-link.com',
-      githubLink: 'https://github.com/yourusername/project',
-      category: 'frontend'
+      demoLink: 'https://res.cloudinary.com/dgny9bffu/image/upload/v1748527475/mod5naavg8oa5smm2i2s.png',
+      githubLink: 'https://github.com/tradersofafricateam/marketplace-server',
+      category: 'fullstack' 
     },
     {
       id: 2,
-      title: 'Task Manager App',
-      description: 'A productivity app for managing tasks with drag-and-drop functionality and user authentication.',
-      image: '/images/project-2.jpg', 
+      title: 'Statistic Manager App',
+      description: 'An agro-tech app for managing farmers data and payment status.',
+      image: 'https://res.cloudinary.com/dgny9bffu/image/upload/v1748528899/sfii6397eouh51salhpb.png', 
       technologies: [
         { name: 'React', color: '#61dafb' },
-        { name: 'TypeScript', color: '#007acc' },
-        { name: 'Firebase', color: '#ffca28' },
-        { name: 'Styled Components', color: '#db7093' }
+        { name: 'JavaScript', color: '#007acc' },
+        { name: 'GCP', color: '#ffca28' },
+        { name: 'Styled Components', color: '#db7093' },
+        { name: 'Use Context', color: '#764abc' },
       ],
-      demoLink: 'https://demo-link.com',
-      githubLink: 'https://github.com/yourusername/project',
-      category: 'fullstack'
+      demoLink: 'https://tradersofafrica.com/',
+      githubLink: 'https://github.com/tradersofafricateam/tradersofafrica',
+      category: 'frontend'
     },
     {
       id: 3,

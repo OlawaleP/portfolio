@@ -24,12 +24,18 @@ const Home: React.FC = () => {
           </div>
         </div>
         <div className="hero-image">
-          <div className="shape-container">
+          {/* <div className="shape-container">
             <div className="shape shape-1"></div>
             <div className="shape shape-2"></div>
             <div className="shape shape-3"></div>
             <div className="shape shape-4"></div>
-          </div>
+          </div> */}
+          <img
+            src="https://res.cloudinary.com/dgny9bffu/image/upload/v1690222538/IMG_5472_oc6v6o.jpg"
+            alt="Profile"
+            className="profile-img-placeholder"
+          />
+
         </div>
       </div>
 

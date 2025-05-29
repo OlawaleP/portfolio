@@ -21,7 +21,7 @@ const Projects: React.FC = () => {
       id: 1,
       title: 'E-Commerce Platform',
       description: 'A full-featured e-commerce platform with product listings, shopping cart, and checkout functionality.',
-      image: '/images/project-1.jpg', // Placeholder image
+      image: '/images/project-1.jpg', 
       technologies: [
         { name: 'React', color: '#61dafb' },
         { name: 'TypeScript', color: '#007acc' },
@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
       id: 2,
       title: 'Task Manager App',
       description: 'A productivity app for managing tasks with drag-and-drop functionality and user authentication.',
-      image: '/images/project-2.jpg', // Placeholder image
+      image: '/images/project-2.jpg', 
       technologies: [
         { name: 'React', color: '#61dafb' },
         { name: 'TypeScript', color: '#007acc' },
@@ -49,24 +49,25 @@ const Projects: React.FC = () => {
     },
     {
       id: 3,
-      title: 'Weather Dashboard',
-      description: 'A weather application showing current conditions and forecasts using weather API data.',
-      image: '/images/project-3.jpg', // Placeholder image
+      title: 'Bank Dashboard',
+      description: 'This is a bank card management dashboard displaying key metrics, analytics charts, recent card requests, and status distribution for monitoring card operations and revenue.',
+      image: 'https://res.cloudinary.com/dgny9bffu/image/upload/v1748523998/kgib5yjus6wcuemhd19v.png', 
       technologies: [
         { name: 'React', color: '#61dafb' },
         { name: 'JavaScript', color: '#f7df1e' },
-        { name: 'API Integration', color: '#4caf50' },
-        { name: 'Chart.js', color: '#ff6384' }
+        { name: 'Chart.js', color: '#ff6384' },
+        { name: 'TypeScript', color: '#007acc' },
+        { name: 'React-Chartjs', color: '#ff6384' }
       ],
-      demoLink: 'https://demo-link.com',
-      githubLink: 'https://github.com/yourusername/project',
+      demoLink: 'https://jam.dev/c/02876e2c-6710-468d-9229-5ef3263a7096',
+      githubLink: 'https://github.com/OlawaleP/bank-dashboard',
       category: 'frontend'
     },
     {
       id: 4,
       title: 'Blog Platform',
       description: 'A content management system allowing users to create, edit, and publish blog posts.',
-      image: '/images/project-4.jpg', // Placeholder image
+      image: '/images/project-4.jpg', 
       technologies: [
         { name: 'React', color: '#61dafb' },
         { name: 'Node.js', color: '#68a063' },
@@ -81,7 +82,7 @@ const Projects: React.FC = () => {
       id: 5,
       title: 'UI Component Library',
       description: 'A collection of reusable React components with comprehensive documentation and examples.',
-      image: '/images/project-5.jpg', // Placeholder image
+      image: '/images/project-5.jpg',
       technologies: [
         { name: 'React', color: '#61dafb' },
         { name: 'TypeScript', color: '#007acc' },
